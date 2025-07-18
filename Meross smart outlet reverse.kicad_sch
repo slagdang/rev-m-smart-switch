@@ -1,0 +1,185 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0b789f5a-74d1-4f81-bd1f-7ac838c6392e")
+	(paper "USLetter")
+	(title_block
+		(date "2025-07-16")
+	)
+	(lib_symbols)
+	(sheet
+		(at 222.25 35.56)
+		(size 34.29 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d0b8180-7ba4-4dc9-99b6-4281183d15f0")
+		(property "Sheetname" "Power Conn"
+			(at 222.25 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powerconn.kicad_sch"
+			(at 222.25 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Meross smart outlet reverse"
+				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 86.36)
+		(size 34.29 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64da09b2-a22e-4689-a149-b317ef83cf14")
+		(property "Sheetname" "current measurement"
+			(at 222.25 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "currentmeas.kicad_sch"
+			(at 222.25 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Meross smart outlet reverse"
+				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 113.03)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b369b764-75b5-491d-b9b3-a172fbbca9ee")
+		(property "Sheetname" "Microcontroller"
+			(at 222.25 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microc.kicad_sch"
+			(at 222.25 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Meross smart outlet reverse"
+				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 60.96)
+		(size 34.29 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc2455a2-d0e8-4734-8077-69cf72fecbb3")
+		(property "Sheetname" "Power Supplies"
+			(at 222.25 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "powersupplies.kicad_sch"
+			(at 222.25 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Meross smart outlet reverse"
+				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

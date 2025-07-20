@@ -2607,7 +2607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 100.0252 59.69 0)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 92.456 48.006 90)
 			(effects
 				(font
@@ -2743,7 +2743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 40.64 71.12 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 139.7 91.44 0)
 			(effects
 				(font
@@ -2919,7 +2919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 73.66 80.01 0)
 			(effects
 				(font
@@ -2998,7 +2998,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 186.9948 143.51 0)
 			(effects
 				(font
@@ -3068,7 +3068,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 145.0848 73.66 0)
 			(effects
 				(font
@@ -3136,7 +3136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 157.48 71.12 0)
 			(effects
 				(font
@@ -3294,7 +3294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Axial_L9.5mm_D4.0mm_P5.08mm_Vertical_Fastron_SMCC"
 			(at 67.31 71.12 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -3508,7 +3508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 131.7752 81.28 0)
 			(effects
 				(font
@@ -3576,7 +3576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.954 70.104 90)
 			(effects
 				(font
@@ -3645,7 +3645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 125.476 77.724 90)
 			(effects
 				(font
@@ -3715,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 149.606 58.674 90)
 			(effects
 				(font
@@ -3785,7 +3785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 81.534 60.706 90)
 			(effects
 				(font
@@ -3855,7 +3855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.546 147.574 90)
 			(effects
 				(font
@@ -4054,7 +4054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 52.07 71.12 0)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 58.42 80.01 0)
 			(effects
 				(font
@@ -4305,7 +4305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP"
 			(at 157.48 85.09 0)
 			(effects
 				(font
@@ -4373,7 +4373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.914 128.524 90)
 			(effects
 				(font
@@ -4509,7 +4509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 226.3648 143.51 0)
 			(effects
 				(font
@@ -4645,7 +4645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 214.9348 143.51 0)
 			(effects
 				(font

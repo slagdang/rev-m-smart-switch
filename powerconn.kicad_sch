@@ -1735,7 +1735,7 @@
 	)
 	(text "HOT"
 		(exclude_from_sim no)
-		(at 220.98 81.28 0)
+		(at 223.52 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1755,7 +1755,7 @@
 	)
 	(text "HOT"
 		(exclude_from_sim no)
-		(at 80.772 81.788 0)
+		(at 80.518 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2655,7 +2655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G2RL-1A"
+		(property "Footprint" "HF relays:HF_Relay_subminature_A_THT_18.4x10.2mm"
 			(at 160.02 88.9 0)
 			(effects
 				(font
@@ -2730,7 +2730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 161.29 50.165 0)
 			(effects
 				(font
@@ -2816,7 +2816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 117.094 47.244 90)
 			(effects
 				(font
@@ -2884,7 +2884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.1 39.6748 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 162.814 128.524 90)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 91.44 129.54 0)
 			(effects
 				(font
@@ -3219,7 +3219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D9mm_W6.1mm_P5mm"
 			(at 122.682 119.38 90)
 			(effects
 				(font
@@ -3332,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 129.54 0)
 			(effects
 				(font
@@ -3466,7 +3466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 85.09 0)
 			(effects
 				(font
@@ -3531,7 +3531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 91.44 160.02 0)
 			(effects
 				(font
@@ -3674,7 +3674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Littelfuse_395Series"
 			(at 125.73 102.87 0)
 			(effects
 				(font
@@ -3745,7 +3745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 203.2 160.02 0)
 			(effects
 				(font

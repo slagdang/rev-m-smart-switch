@@ -1,0 +1,155 @@
+(footprint "HF_Relay_subminature_A_THT_18.4x10.2mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "relay subminiature,SPST,NO")
+	(tags "relay SPST NO")
+	(property "Reference" "REF**"
+		(at 4.5 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6537cc2b-1eda-4cda-8330-814a82c985e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HF_Relay_subminature_A_THT_18.4x10.2mm"
+		(at 3 19 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "59d3978d-7823-4ef0-b995-da96b6e41c07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.82 11.42 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcdc5d02-51f1-4068-a05b-8a270563170e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "HF relay subminature THT form A"
+		(at -3.82 11.42 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54456c29-e931-4c39-8274-97262032e91a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.3 -1.58)
+		(end 8.9 16.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e1f5c65a-716a-4f0f-a65d-f6c23f8f2c50")
+	)
+	(fp_line
+		(start -1.6 -1.88)
+		(end -1.6 17.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79dd1b56-24f3-4b60-8db5-6ae99cb66a5c")
+	)
+	(fp_line
+		(start -1.6 -1.88)
+		(end 9.2 -1.88)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6bd39a93-d041-4c13-8c6e-b6d8e92c831d")
+	)
+	(fp_line
+		(start -1.6 17.12)
+		(end 9.2 17.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dde8030b-c3bc-4ecc-942d-da14eefaacf4")
+	)
+	(fp_line
+		(start 9.2 -1.88)
+		(end 9.2 17.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "09ee890c-ce20-42fd-8449-b9da03b735c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6d21a8b7-b18f-459f-b1bd-0d8c0a936f09")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "11" thru_hole circle
+		(at 0.35 12.7 270)
+		(size 2.7 2.7)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a0eb6d24-8733-4015-8c38-d7e1c411f358")
+	)
+	(pad "14" thru_hole circle
+		(at 7.25 15.24 270)
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9acbb0e8-ee87-4be4-aca5-8442d210fae3")
+	)
+	(pad "A1" thru_hole circle
+		(at 0 0 270)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "44f1173c-8af9-45ad-a6dd-a282960e8510")
+	)
+	(pad "A2" thru_hole circle
+		(at 7.6 0 270)
+		(size 1.4 1.4)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3e645697-5432-44b4-9aca-7e9d7418b240")
+	)
+	(embedded_fonts no)
+)

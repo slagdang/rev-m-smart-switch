@@ -1669,7 +1669,7 @@
 		)
 		(uuid "4fdf6385-feda-45eb-be08-6c3e71ab7977")
 	)
-	(text "pin 1 near edge\n1 is green\n3 is red"
+	(text "pin 1 from edge\n1 is red\n3 is green\n"
 		(exclude_from_sim no)
 		(at 124.46 193.04 0)
 		(effects
@@ -1777,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 72.39) (xy 127 77.47)
+			(xy 127 72.39) (xy 127 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1847,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 85.09) (xy 127 86.36)
+			(xy 127 82.55) (xy 127 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2181,7 @@
 	)
 	(global_label "~{LED_RED}"
 		(shape input)
-		(at 96.52 179.07 180)
+		(at 96.52 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2191,7 +2191,7 @@
 		)
 		(uuid "5d01d70d-c9c4-48d9-a171-90daa9454adb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.4311 179.07 0)
+			(at 85.4311 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 	)
 	(global_label "~{LED_GREEN}"
 		(shape input)
-		(at 96.52 173.99 180)
+		(at 96.52 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2213,7 +2213,7 @@
 		)
 		(uuid "7e8ad534-9698-4e56-bbff-11ade4739b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9516 173.99 0)
+			(at 82.9516 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 127 81.28 180)
+		(at 127 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2278,7 +2278,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a88559c-e78a-42e2-926c-f498f066849f")
 		(property "Reference" "R8"
-			(at 129.54 80.0099 0)
+			(at 129.54 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "Value" "R_US"
-			(at 129.54 82.5499 0)
+			(at 129.54 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,8 +2295,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 125.984 81.026 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 125.984 78.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 81.28 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 127 81.28 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +2366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 55.88 0)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 		(fields_autoplaced yes)
 		(uuid "41046cd9-757b-43dd-aa55-86119838bedd")
 		(property "Reference" "R23"
-			(at 83.82 57.1501 0)
+			(at 83.82 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,8 +2494,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
-			(at 83.82 54.6101 0)
+		(property "Value" "1KΩ"
+			(at 83.82 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 80.264 56.134 90)
 			(effects
 				(font
@@ -2572,7 +2572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm-3"
 			(at 124.46 176.53 0)
 			(effects
 				(font
@@ -2619,7 +2619,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 179.07 90)
+		(at 107.95 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2628,7 +2628,7 @@
 		(fields_autoplaced yes)
 		(uuid "68633009-cc35-46db-b7e3-97efc8b640a4")
 		(property "Reference" "R21"
-			(at 107.95 182.88 90)
+			(at 107.95 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,15 +2636,15 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 107.95 185.42 90)
+			(at 107.95 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 108.204 178.054 90)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 108.204 172.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 179.07 0)
+			(at 107.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 179.07 0)
+			(at 107.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.2952 55.88 0)
 			(effects
 				(font
@@ -2878,7 +2878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.364 73.406 90)
 			(effects
 				(font
@@ -2997,7 +2997,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d8de94c-d0d4-44f7-9723-98e72f6f97ca")
 		(property "Reference" "SW1"
-			(at 60.96 66.04 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,14 +3005,14 @@
 			)
 		)
 		(property "Value" "SW_SPST"
-			(at 60.96 63.5 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled"
 			(at 60.96 59.69 0)
 			(effects
 				(font
@@ -3082,7 +3082,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 64.77 0)
 			(effects
 				(font
@@ -3257,7 +3257,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 173.99 90)
+		(at 107.95 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3266,7 +3266,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9c78d51-d3bc-4915-b01f-224b7744b1e7")
 		(property "Reference" "R19"
-			(at 107.95 167.64 90)
+			(at 107.95 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,15 +3274,15 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 107.95 170.18 90)
+			(at 107.95 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 108.204 172.974 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.204 178.054 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 173.99 0)
+			(at 107.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3300,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 107.95 173.99 0)
+			(at 107.95 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -379,7 +379,7 @@
 						(type background)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -8.89 6.35 0)
 					(length 2.54)
 					(name "V1P"
@@ -397,7 +397,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -8.89 3.81 0)
 					(length 2.54)
 					(name "V1N"
@@ -415,7 +415,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -8.89 1.27 0)
 					(length 2.54)
 					(name "V2P"
@@ -995,6 +995,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 30.48) (xy 39.37 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707573d9-d778-43fe-8be1-2c5f6c6944cd")
+	)
+	(wire
+		(pts
 			(xy 39.37 99.06) (xy 39.37 106.68)
 		)
 		(stroke
@@ -1172,16 +1182,6 @@
 			(type default)
 		)
 		(uuid "dfdddc94-c4a2-4c6b-b9d1-761bb87e36bc")
-	)
-	(wire
-		(pts
-			(xy 35.56 30.48) (xy 39.37 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e68c8465-94fb-4538-90af-c806c035901e")
 	)
 	(wire
 		(pts
@@ -1729,7 +1729,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 81.28 73.66 0)
+		(at 114.3 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1738,7 +1738,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ea4df9-0f92-4d29-bc92-782af5de8ac9")
 		(property "Reference" "R20"
-			(at 83.82 72.3899 0)
+			(at 116.84 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 83.82 74.9299 0)
+			(at 116.84 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 82.296 73.914 90)
+			(at 115.316 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1765,7 +1765,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 73.66 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,7 +1774,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 81.28 73.66 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2269,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 114.3 73.66 0)
+		(at 81.28 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2278,7 +2278,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0e1d6bf-a5d6-4a60-a716-e56bd269781a")
 		(property "Reference" "R24"
-			(at 116.84 72.3899 0)
+			(at 83.82 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2287,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 116.84 74.9299 0)
+			(at 83.82 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2296,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.316 73.914 90)
+			(at 82.296 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 73.66 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 114.3 73.66 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

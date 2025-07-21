@@ -61,7 +61,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 6.35 0)
 				(length 2.54)
 				(name "V1P"
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 3.81 0)
 				(length 2.54)
 				(name "V1N"
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "V2P"
@@ -557,7 +557,7 @@
 					(type background)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -5.08 0)
 				(length 2.54)
 				(hide yes)
@@ -576,7 +576,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -5.08 0)
 				(length 2.54)
 				(hide yes)
@@ -595,7 +595,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -5.08 0)
 				(length 2.54)
 				(hide yes)
@@ -614,7 +614,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "C"
@@ -632,7 +632,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"

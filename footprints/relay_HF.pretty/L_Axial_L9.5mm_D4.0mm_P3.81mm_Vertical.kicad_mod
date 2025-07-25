@@ -1,0 +1,196 @@
+(footprint "L_Axial_L9.5mm_D4.0mm_P3.81mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Axial series, Axial, Vertical, pin pitch=3.81mm, length*diameter=9.5*4mm^2")
+	(tags "Inductor Axial series Axial Vertical pin pitch_3.81mm length_9.5mm diameter_4mm")
+	(property "Reference" "REF**"
+		(at 2.54 -3.12 0)
+		(layer "F.SilkS")
+		(uuid "8ac799f5-91c3-4728-bbc5-1c8465ffa7ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Axial_L9.5mm_D4.0mm_P3.81mm_Vertical"
+		(at 2.54 3.12 0)
+		(layer "F.Fab")
+		(uuid "185d78dd-379b-43d0-a28b-f15aeb8213fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ee726415-9685-424b-8a2b-78a014561f79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f699bb18-7df4-477a-84d3-8bf24b5fbc88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.12 0)
+		(end 2.51 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cfd2131a-09ec-49e0-abb8-b37f33a62e5e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.12 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ae5e184-02a7-4e91-9a0a-1ed179c02cf6")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2544a1d9-f560-455e-aed9-7e40828d9fa7")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end 1 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5170f14a-7194-4ecf-a1c0-b0aa4334563c")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 1 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee12fb3d-3cad-4511-9c15-61acd6c16102")
+	)
+	(fp_line
+		(start 1 -2.25)
+		(end 5 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82f9866e-1666-4830-815f-e473edc4786f")
+	)
+	(fp_line
+		(start 1 2.25)
+		(end 5 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68da9297-99b2-4c8e-bbe8-89b59686f046")
+	)
+	(fp_line
+		(start 5 -1)
+		(end 5 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d37beda0-f63d-4719-81cd-b95c91899b0d")
+	)
+	(fp_line
+		(start 0 0)
+		(end 5.08 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a49352b-6af2-473e-95bf-4611735a7423")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "af132cf3-972d-4973-8724-9cbc894aa2eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -3.12 0)
+		(layer "F.Fab")
+		(uuid "d8cbf626-2323-43b5-b3b8-3b99523513cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8a3d931-4ca4-4ada-86bb-92da4eee1656")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fd714ca5-6dd9-46cb-8438-6961fd61a23a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Axial_L9.5mm_D4.0mm_P5.08mm_Vertical_Fastron_SMCC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1801,6 +1801,17 @@
 		)
 		(uuid "bf6b7295-cd79-4d80-bcfe-44db8e84fce5")
 	)
+	(text "Capacitors on this page are 6.3V X5R unless otherwise noted.\nResistors on this page are ±1% unless otherwise noted."
+		(exclude_from_sim no)
+		(at 161.798 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6c6aaa4-41a8-4339-ab33-f7cf5852186d")
+	)
 	(junction
 		(at 97.79 62.23)
 		(diameter 0)
@@ -2427,21 +2438,21 @@
 		(fields_autoplaced yes)
 		(uuid "0d7eb875-a04b-4b71-81c9-3bbca447b389")
 		(property "Reference" "C14"
-			(at 133.35 36.8301 0)
+			(at 125.73 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 133.35 34.2901 0)
+		(property "Value" "10µF"
+			(at 125.73 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
@@ -2935,21 +2946,21 @@
 		(fields_autoplaced yes)
 		(uuid "788a0ec7-4ecc-4bdf-85ba-46e92f39ee1e")
 		(property "Reference" "C13"
-			(at 120.65 36.8301 0)
+			(at 113.03 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 120.65 34.2901 0)
+		(property "Value" "10µF"
+			(at 113.03 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"

@@ -775,6 +775,16 @@
 		)
 		(uuid "258f12d7-7a1b-4144-b74a-76d53a4e4eef")
 	)
+	(text "place near U3"
+		(exclude_from_sim no)
+		(at 214.63 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27cb013b-6a2f-47f1-9864-1203f6bfde01")
+	)
 	(text "Wired in 4-terminal sensing style\nwith these connections on the\ninner edges of resistor pads"
 		(exclude_from_sim no)
 		(at 89.916 56.896 0)
@@ -1628,7 +1638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1µF"
 			(at 201.93 68.5799 0)
 			(effects
 				(font

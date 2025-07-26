@@ -501,12 +501,13 @@
 				)
 			)
 		)
-		(property "Value" "OB2222M"
-			(at -1.778 8.636 0)
+		(property "Value" "REF**"
+			(at -6.35 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
@@ -547,8 +548,8 @@
 		)
 		(symbol "OB2222M_1_1"
 			(rectangle
-				(start -6.35 7.62)
-				(end 6.35 -7.62)
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0)
 					(type solid)
@@ -558,9 +559,8 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -5.08 0)
+				(at -8.89 3.81 0)
 				(length 2.54)
-				(hide yes)
 				(name "C"
 					(effects
 						(font
@@ -577,9 +577,8 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -5.08 0)
+				(at -8.89 1.27 0)
 				(length 2.54)
-				(hide yes)
 				(name "C"
 					(effects
 						(font
@@ -596,9 +595,8 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -5.08 0)
+				(at -8.89 -1.27 0)
 				(length 2.54)
-				(hide yes)
 				(name "C"
 					(effects
 						(font
@@ -615,7 +613,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -5.08 0)
+				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -633,7 +631,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
+				(at 0 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -651,7 +649,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 5.08 180)
+				(at 8.89 3.81 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -669,7 +667,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -2.54 180)
+				(at 8.89 -1.27 180)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -687,7 +685,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -5.08 180)
+				(at 8.89 -3.81 180)
 				(length 2.54)
 				(name "FB"
 					(effects
@@ -697,6 +695,229 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SPST_Frame"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 3.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST_Frame"
+			(at 0.508 -6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "switch lever"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SW_SPST_Frame_0_0"
+			(circle
+				(center -2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.254) (xy 1.524 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.032 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_Frame_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -2.54) (xy 0 -3.81) (xy -1.27 -3.81) (xy 1.27 -3.81) (xy -1.27 -3.81)
+					(xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy -1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.81) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -3.81) (xy 1.27 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_Frame_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

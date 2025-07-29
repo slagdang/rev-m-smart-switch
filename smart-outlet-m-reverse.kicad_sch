@@ -1300,7 +1300,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "merossspecific:SW_SPST_Frame"
+		(symbol "designspecific:SW_SPST_Frame"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2661,7 +2661,7 @@
 			(uuid "54fc660e-e8a8-4ec1-b1c5-6537baabb023")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "R8")
 					(unit 1)
@@ -2732,7 +2732,7 @@
 			(uuid "94707b1e-67ad-4eb7-baed-c9dac8d83db1")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "C14")
 					(unit 1)
@@ -2798,7 +2798,7 @@
 			(uuid "21798c64-2d94-4a62-9279-2e5afb50ee07")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR014")
 					(unit 1)
@@ -2869,7 +2869,7 @@
 			(uuid "693a344c-aaaa-4057-95a8-6e9aed1e03b4")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "R23")
 					(unit 1)
@@ -2934,7 +2934,7 @@
 			(uuid "c19357f8-a0e5-4596-bae9-d113f8c3fd0c")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR017")
 					(unit 1)
@@ -3006,7 +3006,7 @@
 			(uuid "293d0a7c-aa32-4d9c-97a3-d85d08de8e88")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "LED1")
 					(unit 1)
@@ -3074,7 +3074,7 @@
 			(uuid "b89036c8-3245-4c30-9daf-28b288305215")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "R21")
 					(unit 1)
@@ -3169,7 +3169,7 @@
 			(uuid "3328bf6f-19de-4618-b0a0-0934649de03f")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "MC1")
 					(unit 1)
@@ -3240,7 +3240,7 @@
 			(uuid "274d983c-f952-46f3-b8e0-e182910c4452")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "C13")
 					(unit 1)
@@ -3309,7 +3309,7 @@
 			(uuid "442d7822-a78b-4e18-8dfa-18f124536ffe")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "R7")
 					(unit 1)
@@ -3375,7 +3375,7 @@
 			(uuid "362536c1-67d9-4b26-a309-50670d9b852f")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR025")
 					(unit 1)
@@ -3384,7 +3384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "merossspecific:SW_SPST_Frame")
+		(lib_id "designspecific:SW_SPST_Frame")
 		(at 90.17 59.69 0)
 		(mirror y)
 		(unit 1)
@@ -3446,7 +3446,7 @@
 			(uuid "996416a9-5fcc-4293-876a-cc1729b1d91f")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "SW1")
 					(unit 1)
@@ -3511,7 +3511,7 @@
 			(uuid "bb416385-0b7b-4ebd-89ba-592f8954ba21")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR03")
 					(unit 1)
@@ -3576,7 +3576,7 @@
 			(uuid "bdbbc3d4-afd0-431b-829f-232abe63a6da")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR018")
 					(unit 1)
@@ -3646,7 +3646,7 @@
 			(uuid "d339d1fd-dff3-4c95-a6e1-29fc1026a13a")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "NTC1")
 					(unit 1)
@@ -3712,7 +3712,7 @@
 			(uuid "ff5892ec-ba73-4c35-883a-d49d5645659b")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR016")
 					(unit 1)
@@ -3777,7 +3777,7 @@
 			(uuid "5c608ab1-3599-40cb-8411-ceb3e360a9b0")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR020")
 					(unit 1)
@@ -3843,7 +3843,7 @@
 			(uuid "3346ba11-aff5-4048-a73b-29606372698c")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR024")
 					(unit 1)
@@ -3909,7 +3909,7 @@
 			(uuid "8d53ca4d-7431-4a11-a30a-a9efe1cc9c39")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "#PWR015")
 					(unit 1)
@@ -3977,7 +3977,7 @@
 			(uuid "855dbe80-7dda-4ba5-8a15-feb6074bda0f")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(reference "R19")
 					(unit 1)
@@ -4020,7 +4020,7 @@
 			)
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(page "2")
 				)
@@ -4062,7 +4062,7 @@
 			)
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(page "4")
 				)
@@ -4104,7 +4104,7 @@
 			)
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e"
 					(page "3")
 				)

@@ -956,7 +956,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "merossspecific:OB2222M"
+		(symbol "designspecific:OB2222M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2991,7 +2991,7 @@
 			(uuid "7dedf248-23c6-437a-b86e-cd3cd4ba7353")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C3")
 					(unit 1)
@@ -3059,7 +3059,7 @@
 			(uuid "d74062a6-63c6-4a96-babb-e8b0da5a4284")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "R1")
 					(unit 1)
@@ -3233,7 +3233,7 @@
 			(uuid "2c09da92-5962-4876-938c-1211b9c1690c")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "D3")
 					(unit 1)
@@ -3312,7 +3312,7 @@
 			(uuid "332493da-ce1a-46ed-afcf-7e5486f29e94")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C6")
 					(unit 1)
@@ -3382,7 +3382,7 @@
 			(uuid "432eaf7e-3836-43c4-a854-09e07fec8187")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C17")
 					(unit 1)
@@ -3452,7 +3452,7 @@
 			(uuid "dfa3336c-a43f-4e93-9eee-29e88e8ffbbf")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C9")
 					(unit 1)
@@ -3522,7 +3522,7 @@
 			(uuid "73c23d81-63de-4cf3-aba0-3536b3b01b0d")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C2")
 					(unit 1)
@@ -3822,7 +3822,7 @@
 			(uuid "280c082e-f8c4-498b-8557-62318b72ae2c")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "#PWR023")
 					(unit 1)
@@ -3970,7 +3970,7 @@
 			(uuid "b5d25b1c-48ee-44ec-a397-6bafef96d678")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C1")
 					(unit 1)
@@ -4177,7 +4177,7 @@
 			(uuid "502e675f-f01a-4e69-a836-923dc7700349")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "R4")
 					(unit 1)
@@ -4448,7 +4448,7 @@
 			(uuid "ccad0cf4-b54b-4f91-9ec9-ac11dec62eba")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "#PWR022")
 					(unit 1)
@@ -4622,7 +4622,7 @@
 		)
 	)
 	(symbol
-		(lib_id "merossspecific:OB2222M")
+		(lib_id "designspecific:OB2222M")
 		(at 120.65 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4979,7 +4979,7 @@
 			(uuid "001b061b-f1df-4355-b998-7a9d57781730")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C11")
 					(unit 1)
@@ -5045,7 +5045,7 @@
 			(uuid "df5337bf-d919-4617-b936-fb62aa621b2c")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "#PWR09")
 					(unit 1)
@@ -5124,7 +5124,7 @@
 			(uuid "e1227aaf-82c8-4ef9-89ee-df3540a6e03d")
 		)
 		(instances
-			(project "Meross smart outlet reverse"
+			(project "smart-outlet-m-reverse"
 				(path "/0b789f5a-74d1-4f81-bd1f-7ac838c6392e/fc2455a2-d0e8-4734-8077-69cf72fecbb3"
 					(reference "C12")
 					(unit 1)

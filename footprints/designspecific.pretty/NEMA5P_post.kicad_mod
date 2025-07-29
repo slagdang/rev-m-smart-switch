@@ -56,7 +56,7 @@
 	)
 	(attr through_hole)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "3f74842a-6622-4bfd-a5d0-8bddbe4fa4e2")

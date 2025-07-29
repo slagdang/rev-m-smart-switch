@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "HF relays")(type "KiCad")(uri "${KIPRJMOD}/footprints/relay_HF.pretty")(options "")(descr ""))
+  (lib (name "HF relays")(type "KiCad")(uri "${KIPRJMOD}/footprints/designspecific.pretty")(options "")(descr ""))
 )

@@ -804,7 +804,7 @@
 		(symbol "SW_SPST_Frame_0_1"
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy 2.54 -2.54) (xy 0 -2.54) (xy 0 -3.81) (xy -1.27 -3.81) (xy 1.27 -3.81) (xy -1.27 -3.81)
+					(xy -2.54 -2.54) (xy 5.08 -2.54) (xy 0 -2.54) (xy 0 -3.81) (xy -1.27 -3.81) (xy 1.27 -3.81) (xy -1.27 -3.81)
 					(xy -2.54 -5.08)
 				)
 				(stroke
@@ -900,24 +900,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -2.54 180)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

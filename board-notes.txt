@@ -16,3 +16,10 @@ steel bent metal socket conductors which create the socket on the non-wall side 
 the device. The ground pin and socket are a single metal conductor which conducts
 directly from the socket side to the prongs side of the device without any internal
 electrical connection.
+
+On the sub-board there is:
+
+Realtek RTL8720CM in DFN package with markings RTL8720CM 04D0SH2 G019A2
+BoyaMicro SPI NOR flash 25Q32BSTIG 2842
+crystal oscillator
+antenna traces

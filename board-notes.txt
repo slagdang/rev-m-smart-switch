@@ -1,0 +1,18 @@
+Notes on board.
+
+Original board is 60mm by 33mm with rounded corners to fit.
+
+Some part info:
+
+https://lcsc.com/product-detail/Varistors_VDR-Varistor-VDR-07D471K_C273550.html
+https://lcsc.com/product-detail/Resettable-Fuses_Shenzhen-Jinkaisheng-Elec-JK250-080U_C355373.html?s_z=s_JK250-080U
+https://www.hongfa.com/product/power-relay/HF32FV-16
+https://en.chipsea.com/product/details/?id=1118&pid=79
+
+Round holes in center floods are for steel bus bars that go from those holes to the
+wall side of the device to create neutral and line prongs. These are bent so as
+to redirect the bars to line up with prong locations. Oval holes are for simple
+steel bent metal socket conductors which create the socket on the non-wall side of
+the device. The ground pin and socket are a single metal conductor which conducts
+directly from the socket side to the prongs side of the device without any internal
+electrical connection.

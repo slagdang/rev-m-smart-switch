@@ -1,0 +1,129 @@
+(footprint "NEMA5R_blade"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NEMA 5R blade connector")
+	(property "Reference" "REF**"
+		(at 0 -2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "01a1d06a-3d1d-4548-b8a9-1f85463f735b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NEMA5R_blade"
+		(at 0 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c7d57bd5-770f-4264-bd54-df0516ea11ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9f8ba96-8a71-4814-81f6-6e39a4670ca6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "NEMA 5R blade connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ab4c1ca-b767-4374-8ee0-6ef3d5299eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5 -2.5)
+		(end 5.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "582966f6-40b8-4a05-89f3-debd562e9983")
+	)
+	(fp_line
+		(start -5.5 2.5)
+		(end -5.5 -2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "995d0d36-b325-44ab-ac3b-2ab5f6877db5")
+	)
+	(fp_line
+		(start 5.5 -2.5)
+		(end 5.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff3fb9bd-7b1c-42db-8bc9-9211d3c78ca4")
+	)
+	(fp_line
+		(start 5.5 2.5)
+		(end -5.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "99d5a1c6-97cf-4719-a6ce-020aff3b69f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7efca0fb-5054-4fd5-9fbf-352bd6910c43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -4.25 0)
+		(size 2 4.25)
+		(drill oval 1.5 3.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "470ded85-c5bf-4413-b30f-46be43e13b70")
+	)
+	(pad "1" thru_hole oval
+		(at 4.25 0)
+		(size 2 4.25)
+		(drill oval 1.5 3.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "36ab2e03-b4ff-49f3-afae-f37e0f6683b2")
+	)
+	(embedded_fonts no)
+)

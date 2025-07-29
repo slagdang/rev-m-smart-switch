@@ -1779,7 +1779,7 @@
 		)
 		(uuid "c3c5c534-6649-4ad4-b265-a8f138703ddd")
 	)
-	(text "H3 and CN3 are not on the board. This is a single piece of metal connecting socket to plug."
+	(text "H3 and CN3 are not on the board. This is a single piece of metal connecting socket to plug.\nIt passes through the center hole of the board."
 		(exclude_from_sim no)
 		(at 91.44 162.306 0)
 		(effects
@@ -3046,7 +3046,7 @@
 		(at 80.01 127 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3067,7 +3067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "HF relays:NEMA5P_post"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -3226,7 +3226,7 @@
 		(at 80.01 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3247,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "HF relays:NEMA5P_post"
 			(at 80.01 82.55 0)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 		(at 191.77 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3314,7 +3314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "HF relays:NEMA5R_blade"
 			(at 191.77 127 0)
 			(effects
 				(font
@@ -3358,7 +3358,7 @@
 		(at 191.77 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3381,7 +3381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+		(property "Footprint" "HF relays:NEMA5R_blade"
 			(at 191.77 82.55 0)
 			(effects
 				(font

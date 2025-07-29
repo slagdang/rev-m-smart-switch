@@ -795,6 +795,17 @@
 		)
 		(uuid "5e9c7b4c-7472-473d-b66a-847b97681be5")
 	)
+	(text "CSE7759B measures voltage differences on V1P and V1P to calculate current\nand measures voltage on V2P. The product is power.\nThe data is transmitted on TI pin at 4800bps 8N1 async RS-232 framing."
+		(exclude_from_sim no)
+		(at 142.748 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "939cf936-19fa-475a-b58b-91af16fa4648")
+	)
 	(text "DIV_VOLTAGE senses 0.0532% of source voltage\n\nmax value about ±100mV for nominal line voltage (125Vrms)"
 		(exclude_from_sim no)
 		(at 48.006 119.126 0)

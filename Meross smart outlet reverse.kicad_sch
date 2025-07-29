@@ -1750,6 +1750,56 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2.6"
+		(exclude_from_sim no)
+		(at 49.022 144.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b3f151c-b784-47f6-80ba-290b142a661d")
+	)
+	(text "bottom tab passes through slot\nboard protrudes above main board"
+		(exclude_from_sim no)
+		(at 45.212 156.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44fad080-3825-4c3f-8869-9b8da7d94e40")
+	)
+	(text "11.8"
+		(exclude_from_sim no)
+		(at 43.688 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "546d2549-3c05-416a-99a7-750c44114f8a")
+	)
+	(text "3.0"
+		(exclude_from_sim no)
+		(at 66.04 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63c327cb-052f-4869-987b-b474e3c6051f")
+	)
+	(text "16.5"
+		(exclude_from_sim no)
+		(at 56.134 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6664d23f-3a6e-4d54-bbf4-76303f126ec3")
+	)
 	(text "place near MC1"
 		(exclude_from_sim no)
 		(at 117.348 46.736 0)
@@ -1771,6 +1821,16 @@
 		)
 		(uuid "72694f57-49d3-4aa4-861e-a8ef7bccbc7a")
 	)
+	(text "sub board shape\nall dimensions in mm\n\n0.8 thick"
+		(exclude_from_sim no)
+		(at 25.146 127.508 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d15f0a4-77cb-4964-9c57-f0c6e929be0f")
+	)
 	(text "pin 1 away from edge of board\npins numbered looking at bottom side"
 		(exclude_from_sim no)
 		(at 45.212 100.584 0)
@@ -1780,6 +1840,16 @@
 			)
 		)
 		(uuid "7d48b0f5-fae4-42b0-a6b5-4918fe90d874")
+	)
+	(text "17.0"
+		(exclude_from_sim no)
+		(at 43.18 111.506 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ecac3a4-43a8-46e6-b8eb-a5e8af45e125")
 	)
 	(text "pin 1 is pin furthest from microcontroller\npin 1 is red\npin 3 is green\n"
 		(exclude_from_sim no)
@@ -1801,6 +1871,17 @@
 		)
 		(uuid "bf6b7295-cd79-4d80-bcfe-44db8e84fce5")
 	)
+	(text "board has RTL8720CM MCU\nand BoyaMicro BY25Q32BSTIG SPI NOR flash (32mbit)"
+		(exclude_from_sim no)
+		(at 74.168 124.968 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed56a02c-0072-4dc3-87d6-8552b6905e06")
+	)
 	(text "Capacitors on this page are 6.3V X5R unless otherwise noted.\nResistors on this page are ±1% unless otherwise noted."
 		(exclude_from_sim no)
 		(at 161.798 28.956 0)
@@ -1811,6 +1892,16 @@
 			(justify left)
 		)
 		(uuid "f6c6aaa4-41a8-4339-ab33-f7cf5852186d")
+	)
+	(text "Components face edge of main board.\nTop 5.5mm of sub board is antenna."
+		(exclude_from_sim no)
+		(at 46.228 150.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa1da175-6b51-4b5d-9934-f06758ec2b1d")
 	)
 	(junction
 		(at 97.79 62.23)
@@ -1884,6 +1975,26 @@
 		)
 		(uuid "0b64caf1-cb27-43fe-9b58-aa7699054be6")
 	)
+	(polyline
+		(pts
+			(xy 48.26 132.08) (xy 49.53 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cc0a92c-84b9-449a-a611-fd5a46cac9d7")
+	)
+	(polyline
+		(pts
+			(xy 36.83 119.38) (xy 36.83 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1114f1c8-780d-4d47-952a-c920eefd1e2b")
+	)
 	(wire
 		(pts
 			(xy 73.66 62.23) (xy 73.66 63.5)
@@ -1903,6 +2014,46 @@
 			(type default)
 		)
 		(uuid "12c8c4f0-23cc-4347-892d-08dc0f677037")
+	)
+	(polyline
+		(pts
+			(xy 48.26 134.62) (xy 48.26 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbd3ffc-3e60-4582-874e-97151d9b71a6")
+	)
+	(polyline
+		(pts
+			(xy 50.8 132.08) (xy 63.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2492bf20-c045-4e86-8bf8-c2aba3e1492b")
+	)
+	(polyline
+		(pts
+			(xy 49.53 135.89) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34843ec3-05d7-46c6-a38f-9e8c8368b1c0")
+	)
+	(polyline
+		(pts
+			(xy 36.83 119.38) (xy 49.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39814c23-6779-42df-9e27-1aaaeb461670")
 	)
 	(wire
 		(pts
@@ -1943,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "4c1a8551-2d57-4059-ac46-92fbe3393f6d")
+	)
+	(polyline
+		(pts
+			(xy 48.26 135.89) (xy 48.26 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d36b68a-bf46-474b-b151-88af00d84ecc")
 	)
 	(wire
 		(pts
@@ -1994,6 +2155,16 @@
 		)
 		(uuid "7152c160-587c-43e4-af53-4e384c4f8ba1")
 	)
+	(polyline
+		(pts
+			(xy 38.1 135.89) (xy 38.1 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762ab7dc-8259-44b0-bebd-818b1217e682")
+	)
 	(wire
 		(pts
 			(xy 80.01 72.39) (xy 80.01 73.66)
@@ -2014,6 +2185,26 @@
 		)
 		(uuid "7e4e80ab-3882-4fda-82fb-2ec151dd3dbd")
 	)
+	(polyline
+		(pts
+			(xy 49.53 109.22) (xy 49.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f05b2bd-4dea-4c12-bfc8-ddc064b25401")
+	)
+	(polyline
+		(pts
+			(xy 50.8 119.38) (xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d71269-2131-40c9-9967-93a3d90b1394")
+	)
 	(wire
 		(pts
 			(xy 129.54 39.37) (xy 129.54 43.18)
@@ -2023,6 +2214,16 @@
 			(type default)
 		)
 		(uuid "86da5b0a-8a95-4e20-8822-7e9e49514fd3")
+	)
+	(polyline
+		(pts
+			(xy 50.8 134.62) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f03dd1c-0125-49e5-8527-c9953bafd0dc")
 	)
 	(wire
 		(pts
@@ -2074,6 +2275,16 @@
 		)
 		(uuid "9b69eee9-3e46-4934-9c8d-17f57edcf3b2")
 	)
+	(polyline
+		(pts
+			(xy 36.83 132.08) (xy 38.1 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42d00b3-6022-474e-bee1-46cdd43fabdb")
+	)
 	(wire
 		(pts
 			(xy 38.1 62.23) (xy 73.66 62.23)
@@ -2094,6 +2305,16 @@
 		)
 		(uuid "a6a2baf6-1c83-4078-a4b6-f825d7468226")
 	)
+	(polyline
+		(pts
+			(xy 49.53 132.08) (xy 49.53 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa00f68a-d8d5-42d9-862f-ea0e3fba2ac1")
+	)
 	(wire
 		(pts
 			(xy 116.84 29.21) (xy 116.84 31.75)
@@ -2113,6 +2334,16 @@
 			(type default)
 		)
 		(uuid "b478fa7d-c726-48d3-87a3-c57696da47bf")
+	)
+	(polyline
+		(pts
+			(xy 38.1 132.08) (xy 38.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ebf903-1a68-4096-ac6d-7ad4f6b898bb")
 	)
 	(wire
 		(pts
@@ -2204,6 +2435,16 @@
 		)
 		(uuid "ed9c945d-58fa-4151-b06a-eb2bb4456347")
 	)
+	(polyline
+		(pts
+			(xy 36.83 109.22) (xy 36.83 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa705a35-0205-4813-bf10-137575f9d973")
+	)
 	(wire
 		(pts
 			(xy 38.1 59.69) (xy 73.66 59.69)
@@ -2213,6 +2454,16 @@
 			(type default)
 		)
 		(uuid "fc060b77-5044-48b2-baa3-7b53900c6fb2")
+	)
+	(polyline
+		(pts
+			(xy 38.1 134.62) (xy 48.26 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4f415c-183d-4b03-8dd5-e96f5392e452")
 	)
 	(label "~{BUTTON}"
 		(at 39.37 59.69 0)
@@ -2718,7 +2969,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Dual_KAK"
+		(property "Value" "LED_Dual_RG"
 			(at 220.9165 54.61 0)
 			(effects
 				(font
@@ -2726,7 +2977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm-3"
+		(property "Footprint" "HF relays:LED_D3.0mm-3_Horiz"
 			(at 219.71 63.5 0)
 			(effects
 				(font
@@ -3761,7 +4012,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "0d0b8180-7ba4-4dc9-99b6-4281183d15f0")
-		(property "Sheetname" "Power Conn"
+		(property "Sheetname" "power control"
 			(at 158.75 140.2584 0)
 			(effects
 				(font
@@ -3845,7 +4096,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fc2455a2-d0e8-4734-8077-69cf72fecbb3")
-		(property "Sheetname" "Power Supplies"
+		(property "Sheetname" "power supplies"
 			(at 193.04 140.2584 0)
 			(effects
 				(font

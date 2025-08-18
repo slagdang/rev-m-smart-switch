@@ -6,7 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "sensing and controlling interface")
-		(date "2025-07-28")
+		(date "2025-08-17")
+		(rev "a")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x11"
@@ -1876,12 +1877,12 @@
 	)
 	(text "Capacitors on this page are 6.3V X5R unless otherwise noted.\nResistors on this page are ±1% unless otherwise noted."
 		(exclude_from_sim no)
-		(at 161.798 28.956 0)
+		(at 262.89 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f6c6aaa4-41a8-4339-ab33-f7cf5852186d")
 	)
@@ -2618,7 +2619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 82.55 88.8999 0)
 			(effects
 				(font
@@ -2689,7 +2690,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10µ"
 			(at 129.54 36.8299 0)
 			(effects
 				(font
@@ -2818,21 +2819,21 @@
 		(fields_autoplaced yes)
 		(uuid "41046cd9-757b-43dd-aa55-86119838bedd")
 		(property "Reference" "R23"
-			(at 71.12 52.0699 0)
+			(at 76.2 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1KΩ"
-			(at 71.12 54.6099 0)
+		(property "Value" "1k"
+			(at 76.2 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -3032,7 +3033,7 @@
 				)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 203.2 57.15 90)
 			(effects
 				(font
@@ -3197,7 +3198,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10µ"
 			(at 116.84 36.8299 0)
 			(effects
 				(font
@@ -3260,15 +3261,15 @@
 		(fields_autoplaced yes)
 		(uuid "79b09916-e674-4ecd-a83b-dad499287698")
 		(property "Reference" "R7"
-			(at 53.34 88.9 90)
+			(at 53.34 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100Ω"
-			(at 53.34 86.36 90)
+		(property "Value" "100"
+			(at 53.34 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3604,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 83.82 78.4224 0)
 			(effects
 				(font
@@ -3935,7 +3936,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 203.2 72.39 90)
 			(effects
 				(font

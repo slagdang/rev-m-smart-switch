@@ -5,7 +5,8 @@
 	(uuid "d6a12362-6d73-45bf-906b-825ff2a6e24c")
 	(paper "USLetter")
 	(title_block
-		(date "2025-07-28")
+		(date "2025-08-17")
+		(rev "a")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -766,12 +767,12 @@
 	)
 	(text "Capacitors on this page are 10V X5R unless otherwise noted.\nResistors on this page are ±1% unless otherwise noted."
 		(exclude_from_sim no)
-		(at 185.928 35.306 0)
+		(at 262.636 20.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "258f12d7-7a1b-4144-b74a-76d53a4e4eef")
 	)
@@ -1373,7 +1374,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470kΩ"
+		(property "Value" "470k"
 			(at 41.91 38.0999 0)
 			(effects
 				(font
@@ -1509,7 +1510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2kΩ"
+		(property "Value" "2k"
 			(at 200.66 111.7599 0)
 			(effects
 				(font
@@ -1579,7 +1580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF"
+		(property "Value" "33n"
 			(at 151.13 95.2499 0)
 			(effects
 				(font
@@ -1649,7 +1650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1µ"
 			(at 201.93 68.5799 0)
 			(effects
 				(font
@@ -1719,7 +1720,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470kΩ"
+		(property "Value" "470k"
 			(at 41.91 50.7999 0)
 			(effects
 				(font
@@ -1789,7 +1790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 83.82 74.9299 0)
 			(effects
 				(font
@@ -1991,7 +1992,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470kΩ"
+		(property "Value" "470k"
 			(at 41.91 62.2299 0)
 			(effects
 				(font
@@ -2193,7 +2194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF"
+		(property "Value" "33n"
 			(at 118.11 95.2499 0)
 			(effects
 				(font
@@ -2329,7 +2330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 116.84 74.9299 0)
 			(effects
 				(font
@@ -2487,7 +2488,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF"
+		(property "Value" "33n"
 			(at 85.09 95.2499 0)
 			(effects
 				(font
@@ -2557,7 +2558,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "470kΩ"
+		(property "Value" "470k"
 			(at 41.91 73.6599 0)
 			(effects
 				(font
@@ -2627,7 +2628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 200.66 97.7899 0)
 			(effects
 				(font
@@ -2763,7 +2764,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1kΩ"
+		(property "Value" "1k"
 			(at 41.91 96.5199 0)
 			(effects
 				(font
